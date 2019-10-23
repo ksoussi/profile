@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+
+body {
+  text-align: center;
+  background-image: url(https://st4.depositphotos.com/22087670/25253/v/600/depositphotos_252533138-stock-video-video-footage-presentation-animation-gray.jpg);
+  background-size: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #16001e;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul > li {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  text-align: center;
+  padding-right: 5px;
+}
+
+@media (max-width: 960px) {
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  div {
+    width: 300px;
+  }
+}
+
+
+svg{
+  background:url('https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/qqtccckpyj555oibt676.jpg');
+  background-size:cover;
+  width:50vmin; height:auto;
+  display:block;
+  margin:30vmin auto 60px auto;
+  border-radius: 50%;
+}
+text{
+  font-size:1px;
+  transition:font-size .4s ease-out;
+}
+svg:hover text{
+  transition:font-size .4s ease-in;
+  font-size: 1000px;
+}
